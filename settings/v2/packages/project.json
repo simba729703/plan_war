@@ -1,0 +1,49 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitWidth": false,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Enemy"
+      },
+      {
+        "index": 2,
+        "name": "Bullet"
+      },
+      {
+        "index": 3,
+        "name": "Player"
+      },
+      {
+        "index": 4,
+        "name": "Reword"
+      },
+      {
+        "index": 5,
+        "name": "Tank"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 12,
+      "2": 34,
+      "3": 18,
+      "4": 8,
+      "5": 4
+    }
+  },
+  "layer": [
+    {
+      "name": "GAME",
+      "value": 1
+    }
+  ]
+}
